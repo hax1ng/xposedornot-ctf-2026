@@ -1,0 +1,8 @@
+# messages_export  (device backup, thread: 1 participant)
+# schema: [msg_id] iso8601 | direction | peer | body
+[0418] 2026-03-09T22:31:07 | OUT | +1-555-0173 | I know what you are doing with the NL exports.
+[0419] 2026-03-09T22:33:44 | IN  | +1-555-0173 | You have no idea what you are talking about.
+[0420] 2026-03-11T17:15:02 | OUT | +1-555-0173 | I have photos now. you will pay for what you did.
+[0421] 2026-03-12T08:02:19 | OUT | +1-555-0173 | Compliance meeting set. This ends.
+# --- calendar entry recovered from same backup ---
+# EVENT  when=2026-03-20T21:00  where="Sub-Level 2, Restricted (SL2-MAIN)"  note="he asked to meet here. alone."

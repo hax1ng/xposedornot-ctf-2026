@@ -1,0 +1,48 @@
+# ---- Large challenge artifacts (not committed; recreate from challenge files) ----
+*.img
+*.img.xz
+*.lime
+*.lime.xz
+*.7z
+*.tar.gz
+*.tgz
+*.raw
+*.vmem
+*.mem
+*.dmp
+*.E01
+
+# Keep the small, curated evidence we DID include:
+!lab/checkpoint/evidence/**
+!osint/cadence/*.docx
+
+# ---- Scratch / work dirs ----
+work/
+extract/
+extracted/
+peel/auto_work/
+**/downloads/
+*.decoys
+.organizer/
+
+# ---- Secrets / local config (never commit) ----
+*.token
+*.key
+.env
+*.pem
+id_rsa*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
